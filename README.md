@@ -8,7 +8,11 @@ and dtbs get copied into /boot, /boot/overlays and /lib/modules.
 At the end, a tarball with the binaries is built so it can be transferred and
 unpacked on any other pi4 system.
 
-## checking the kernel
+### building
+
+just run the build-linux-5.1.sh script
+
+### checking the kernel
 
 After switching to this kernel you can check the snap confinement like:
 
