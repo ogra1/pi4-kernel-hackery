@@ -8,6 +8,10 @@ and dtbs get copied into /boot, /boot/overlays and /lib/modules.
 At the end, a tarball with the binaries is built so it can be transferred and
 unpacked on any other pi4 system.
 
+A tarball with a build produced by this script can be found at:
+
+https://people.canonical.com/~ogra/snappy/raspberrypi4/
+
 ### building
 
 just run the build-linux-5.1.sh script
