@@ -3,7 +3,7 @@ on and for a raspberry pi4.
 
 It clones the https://github.com/raspberrypi/linux.git linux-5.1 tree, then
 the config and apparmor patches get applied during build, kernel modules
-and dtbs get copied into /boot and /lib/modules.
+and dtbs get copied into /boot, /boot/overlays and /lib/modules.
 
 At the end, a tarball with the binaries is built so it can be transferred and
 unpacked on any other pi4 system.
