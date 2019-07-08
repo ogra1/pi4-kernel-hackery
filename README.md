@@ -12,6 +12,7 @@ unpacked on any other pi4 system.
 
 After switching to this kernel you can check the snap confinement like:
 
+```
 ogra@pi4:~$ snap debug confinement
 strict
 ogra@pi4:~$ snap debug sandbox-features
@@ -29,3 +30,4 @@ series  16
 ubuntu  16.04
 kernel  5.1.16+
 ogra@pi4:~$ 
+```
