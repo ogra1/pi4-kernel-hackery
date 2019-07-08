@@ -1,6 +1,9 @@
 This is a hackish script to build a snap compliant linux 5.1 kernel
-on and for a raspberry pi4. The config and apparmor patches get applied
-during build, kernel modules and dtbs get copied into /boot and /lib/modules.
+on and for a raspberry pi4.
+
+It clones the https://github.com/raspberrypi/linux.git linux-5.1 tree, then
+the config and apparmor patches get applied during build, kernel modules
+and dtbs get copied into /boot and /lib/modules.
 
 At the end, a tarball with the binaries is built so it can be transferred and
 unpacked on any other pi4 system.
