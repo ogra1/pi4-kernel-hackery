@@ -20,4 +20,10 @@ kmod:                 mediated-modprobe
 mount:                freezer-cgroup-v1 layouts mount-namespace per-snap-persistency per-snap-profiles per-snap-updates per-snap-user-profiles stale-base-invalidation
 seccomp:              bpf-argument-filtering kernel:allow kernel:errno kernel:kill_process kernel:kill_thread kernel:log kernel:trace kernel:trap kernel:user_notif
 udev:                 device-cgroup-v1 tagging
-ogra@pi4:~$
+ogra@pi4:~$ snap version
+snap    2.39.2ubuntu0.2
+snapd   2.39.2ubuntu0.2
+series  16
+ubuntu  16.04
+kernel  5.1.16+
+ogra@pi4:~$ 
