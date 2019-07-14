@@ -10,7 +10,7 @@ unpacked on any other pi4 system.
 
 A tarball with a build produced by this script can be found at:
 
-https://people.canonical.com/~ogra/snappy/raspberrypi4/
+https://people.canonical.com/~ogra/snappy/raspberrypi4/initial-kernel
 
 ### building
 
